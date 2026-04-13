@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+bin/
+lib/
+lib64/
+share/
+include/
+pyvenv.cfg
+runs/detect/train/weights/last.pt
+runs/detect/train2/
+logs/
+*.log
+.env

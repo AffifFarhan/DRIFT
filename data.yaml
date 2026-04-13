@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['close_eyeL', 'close_eyeR', 'no_yawn', 'open_eyeL', 'open_eyeR', 'yawn']
+
+roboflow:
+  workspace: drift-0eorq
+  project: driver-yawn-yg8pl
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/drift-0eorq/driver-yawn-yg8pl/dataset/1
